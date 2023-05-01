@@ -1,5 +1,5 @@
 from flask import Flask, Blueprint, request, url_for
-from Ej06_Pseu import principal
+from EjerciciosFlask.Ej06_Pseu import principal
 
 app = Flask(__name__)
 

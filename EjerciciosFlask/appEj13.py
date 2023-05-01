@@ -1,5 +1,5 @@
 from flask import Flask,Blueprint, request, url_for
-from Ej13_Pseu import principal
+from EjerciciosFlask.Ej13_Pseu import principal
 app = Flask(__name__)
 
 appEj13= Blueprint('appEj13',__name__,static_folder='static', template_folder='template' )

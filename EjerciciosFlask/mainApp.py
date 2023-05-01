@@ -1,11 +1,11 @@
 from flask import Flask, request, url_for
 
-from appEj06 import appEj06
-from appEj07 import appEj07 
-from appEj08 import appEj08 
-from appEj11 import appEj11 
-from appEj12 import appEj12 
-from appEj13 import appEj13 
+from EjerciciosFlask.appEj06 import appEj06
+from EjerciciosFlask.appEj07 import appEj07 
+from EjerciciosFlask.appEj08 import appEj08 
+from EjerciciosFlask.appEj11 import appEj11 
+from EjerciciosFlask.appEj12 import appEj12 
+from EjerciciosFlask.appEj13 import appEj13 
 
 
 app = Flask(__name__)
@@ -62,6 +62,8 @@ def home():
 #    shutdown_server()
 #    return 'Server shutting down...'
 
+def principal():
+    app.run()
 
 if __name__ == '__main__':
-   app.run(debug=True)
+   principal()

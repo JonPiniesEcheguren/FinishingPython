@@ -46,7 +46,7 @@ def cargar_lista_desde_bbdd(col):
         except:
             return None
 
-if __name__=="__main__":
+def principal():
     client=None
     db=None
     col=None
@@ -86,4 +86,6 @@ if __name__=="__main__":
         }
         col=createCollection('ResultadosGeneros',db)
         col.insert_one(resultados)
-        
+
+if __name__=="__main__":
+     principal()

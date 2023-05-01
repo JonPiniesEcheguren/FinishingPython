@@ -30,7 +30,7 @@
 
 ### Colaboradores:
 
-- Antonio Miralles
+- Antonio Miralles Gutiérrez
 - Jon Pinies Echeguren
 
 Ejercicios de carácter puramente educativo.
@@ -47,9 +47,11 @@ Elegir uno de los ejercicios de ficheros y utilizar en cambio de ficheros la BBD
 3. Lista de Personas
 4. Temperatura mensual de 20 ciudades.
 
-La Base de Datos seleccionada para el ejercicio ha sido X. El ejercicio elegido ha sido el número X, cuyo enunciado es el siguiente
+La Base de Datos seleccionada para el ejercicio ha sido MongoDB. El ejercicio elegido ha sido el número 1, cuyo enunciado es el siguiente:
 
+1. Lista de hombres y mujeres
 
+   Crear un programa en Python para generar aleatoriamente una lista de 100 elementos que representan el género de las personas: "H" para hombres y "M" para mujeres. Llamar a una función llamada "ClasificarGenero" pasando la lista de personas como argumento. La función "ClasificarGenero" clasifica y cuenta la cantidad de hombres y mujeres en la lista, calcula el porcentaje de hombres y mujeres.
 
 Deberá completar su programa en Python para que cumpla con las siguientes condiciones:
 
